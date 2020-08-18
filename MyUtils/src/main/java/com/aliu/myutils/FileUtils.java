@@ -1153,7 +1153,6 @@ public class FileUtils {
             return Environment.getExternalStorageDirectory() + "/" + split[1];
           }
 
-          // TODO handle non-primary volumes
         }
         // DownloadsProvider
         else if (isDownloadsDocument(uri)) {
@@ -1201,7 +1200,6 @@ public class FileUtils {
         return uri.getPath();
       }
     } catch (Exception e) {
-      // TODO: handle exception
     }
 
     return null;

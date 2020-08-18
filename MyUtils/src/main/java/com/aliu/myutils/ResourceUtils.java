@@ -99,7 +99,6 @@ public class ResourceUtils {
 			if (is != null)
 				is.close();
 		} catch (Throwable e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -107,7 +106,6 @@ public class ResourceUtils {
 			if (dst != null)
 				dst.close();
 		} catch (Throwable e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -150,17 +148,14 @@ public class ResourceUtils {
 				}
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			if(dst != null) {
 				try {
 					dst.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -214,7 +209,6 @@ public class ResourceUtils {
 			destLists.clear();
 
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 	}
 
@@ -318,7 +312,6 @@ public class ResourceUtils {
 				try {
 					in.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
