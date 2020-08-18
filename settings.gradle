@@ -1,0 +1,4 @@
+include ':ALiuBase'
+include ':MyUtils'
+rootProject.name='BestALiu'
+include ':app'
